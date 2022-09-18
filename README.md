@@ -1,2 +1,12 @@
 # Plantilla-Node_Express
-# NodeJs-REST-API-Default
+## Project setup
+```
+npm install
+```
+
+## Init Projects
+```
+npm start
+```
+
+
