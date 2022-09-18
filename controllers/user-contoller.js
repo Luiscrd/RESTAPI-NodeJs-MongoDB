@@ -138,7 +138,7 @@ const userPatch = (req = request, res = response) => {
 const userDelete = async(req = request, res = response) => {
 
     // sacar id de los parametros
-    let { id } = req.params;
+    const { id } = req.params;
 
     // Borrar fisicamente
     // const usuario = await Usario.findByIdAndDelete( id );
@@ -149,7 +149,7 @@ const userDelete = async(req = request, res = response) => {
     res.status(202).json({
 
         msg: 'Usuario borrado correctamente',
-        usuario
+        usuario,
 
     });
 };
