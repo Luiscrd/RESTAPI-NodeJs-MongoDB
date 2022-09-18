@@ -10,10 +10,6 @@ const {
     userPatch
 } = require('../controllers/user-contoller');
 
-
-
-
-
 const router = Router();
 
 router.get('/', [
